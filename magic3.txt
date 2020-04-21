@@ -1,0 +1,16 @@
+1 ?cH(147)+cH(13)+cH(13)+"      sprite on border in basic":?
+2 print "          by zibri of ramjam":print
+3 print "   press run/stop + restore to quit."
+4 poke 53269,1 : rem set 1 sprites visible
+5 for x=12800 to 12800+63: read y: pokex,y: next x: rem sprite generation
+6 poke 2040,200: rem pointer
+7 poke 53248, 166: rem x pos
+8 poke 53249, 6: rem y pos
+9 data 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+10 data 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+11 data 0,0,0,0,0,0,0,248,0,0,9,0,2,16,24,96
+12 data 33,36,146,65,56,226,129,36,146,249,56,146,0,0,0,3
+13 poke768,226:poke769,252:poke16383,85:run 14
+14 poke56334,0:poke53266,212:poke53265,27
+15 h=53265:i=53273:h1=19:h2=27:i1=1:b=53280:bc=254:tc=246
+16 pokei,i1:pokeb,bc:waiti,i1:pokeh,h1:pokeh,h2:pokeb,tc:goto16
