@@ -6,3 +6,6 @@ MAGIC.PRG
 
 MAGIC2.PRG  
 ![Screenshot in VICE emulator](https://github.com/Zibri/C64/blob/master/magic2.png)
+
+MAGIC3.PRG  
+![Screenshot in VICE emulator](https://github.com/Zibri/C64/blob/master/magic3.png)
