@@ -31,7 +31,7 @@
 300 print cls$+" istruzioni:"
 310 print"a turno ogni giocatore puo' prendere"
 320 print"da una a tre palline"
-330 print"vince chi prende l'ultima, le ultime dueo le ultime tre!"
+330 print"vince chi prende l'ultima, le ultime due o le ultime tre!"
 340 print:input" giochiamo";q$
 350 goto 260
 
