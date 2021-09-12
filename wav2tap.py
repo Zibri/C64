@@ -11,7 +11,7 @@ if (len(sys.argv)!=3):
   print("Usage "+sys.argv[0]+" FILE.WAV FILE.TAP")
   exit(1)
 
-f = f=sf.SoundFile(sys.argv[1])
+f = sf.SoundFile(sys.argv[1])
 w = f.read()
 
 o = open(sys.argv[2], "wb")
